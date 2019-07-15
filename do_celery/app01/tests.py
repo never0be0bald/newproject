@@ -8,7 +8,7 @@ if __name__ == "__main__":
     os.environ.setdefault("DJANGO_SETTINGS_MODULE", "do_celery.settings")
     import django
     django.setup()
-
+    print('this is a test')
     # class Foo(type):
     #     pass
     #     # def __init__(self):
